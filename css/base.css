@@ -4,32 +4,9 @@
  @import "./portfolio.css";
  @import "./footer.css";
  
- * {
-     list-style: none;
- }
 
- body {
-     --main-text-color: #212121;
-     --main-text-colorlight: #757575;
-     --second-text-color: #2196F3;
-     --third-text-color: #FFFFFF;
-     --bg-color: #2F303A;
-     --bg-colorlight: #F5F4FA;
-     --main-color-icon: #AFB1B8;
-     --main-font: "Roboto", "Arial", "Impact", sans-serif;
 
-     font-family: var(--main-font);
-     font-size: 14px;
-     line-height: 1.71;
-     color: var(--main-text-color);
- }
 
- h1, h2, h3, h4, h5, h6, p, ul {
-     margin: 0;
- }
 
- .container {
-     width: 1200px;
-     margin: 0 auto;
-     padding: 0 15px;
- }
+
+
