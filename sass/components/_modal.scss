@@ -241,12 +241,12 @@ input.name-label-input {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked+.icon {
+.checkbox:checked +.icon {
     background-color: var(--second-text-color);
     border: 0px;
 }
 
-.checkbox+.icon>.input-icon {
+.checkbox +.icon > .input-icon {
 
     width: 16px;
     height: 15px;
@@ -258,7 +258,7 @@ input.name-label-input {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked+.icon>.input-icon {
+.checkbox:checked + .icon > .input-icon {
     fill: var(--bg-colorlight);
     opacity: 1;
 }

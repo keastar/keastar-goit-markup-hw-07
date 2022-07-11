@@ -1,0 +1,16 @@
+&btn {
+    display: block;
+    color: var(--third-text-color);
+    background-color: var(--second-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}

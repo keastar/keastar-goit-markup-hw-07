@@ -1,8 +1,8 @@
     //variables
-@import "./variables/variables";
+@import "./utils/vars";
 
 //reset styles
-@import "./base/_reset";
+@import "./base/reset";
 
 //base style
 @import "./base/base";
@@ -10,6 +10,8 @@
 @import "./components/container";
 
 @import "./components/header";
+
+@import "./components/_portfolio";
 
 @import "./components/hero";
 
@@ -25,7 +27,6 @@
 
 @import "./components/_modal";
 
-@import "./components/_portfolio";
 
 
 

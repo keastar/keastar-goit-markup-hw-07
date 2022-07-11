@@ -1,140 +1,147 @@
 .bott {
+
     width: inherit;
     color: var(--third-text-color);
     background-color: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 231px;
+        padding-right: 0px;
+    }
+
+    &__container2 {
+        padding-left: 70px;
+        padding-right: 0px;
+    }
+
+    &__container3 {
+        padding-left: 71px;
+        padding-right: 0px;
+    }
+
+    &__attach {
+        font-family: var(--main-font);
+        font-weight: 700;
+        text-transform: uppercase;
+
+        padding-bottom: 20px;
+        padding-top: 12px;
+    }
+
+    &__social-list {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+
+    &__social-item {
+        padding-right: 10px;
+    }
+
+    &__social-link {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            background-color: var(--second-text-color)
+        }
+
+        &:focus {
+            background-color: var(--second-text-color)
+        }
+    }
+
+    &__social-icon {
+        fill: var(--third-text-color);
+    }
+
+    &__logo {
+        font-family: "Raleway", sans-serif;
+        color: var(--second-text-color);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        padding-bottom: 20px;
+    }
+
+        &__adr-info {
+            font-style: normal;
+            text-decoration: none;
+            color: var(--third-text-color);
+    
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       
+    
+            &:hover {
+                color: var(--second-text-color);
+            }
+    
+            &:focus {
+                color: var(--second-text-color);
+            }
+
+        }
+    
+        &__adr-c {
+            font-style: normal;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.6);
+    
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+            &:hover {
+                color: var(--second-text-color);
+            }
+    
+            &:focus {
+                color: var(--second-text-color);
+            }
+        
+        }
+    
+        &__adr-list {
+            padding-left: 0;
+        }
+    
+        &__adr-item:nth-last-child(n+2) {
+            padding-bottom: 9px;
+        }
 }
 
 .fotter-container {
+
     display: flex;
     padding-left: 15px;
 }
 
-.bott-container {
-    display: flex;
-    flex-direction: column;
-    width: 231px;
-    padding-right: 0px;
-}
+a.bott__logo > span {
 
-.bott-container2 {
-    padding-left: 70px;
-    padding-right: 0px;
-}
-
-.bott-container3 {
-    padding-left: 71px;
-    padding-right: 0px;
-}
-
-.bott-attach {
-    font-family: var(--main-font);
-    font-weight: 700;
-    text-transform: uppercase;
-
-    padding-bottom: 20px;
-    padding-top: 12px;
-}
-
-.bott-social-list {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 0px;
-}
-
-.bott-social-item {
-    padding-right: 10px;
-}
-
-.bott-social-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.bott-social-link:hover {
-    background-color: var(--second-text-color)
-}
-
-.bott-social-link:focus {
-    background-color: var(--second-text-color)
-}
-
-.bott-social-icon {
-    fill: var(--third-text-color);
-}
-
-.bott-logo {
-    font-family: "Raleway", sans-serif;
-    color: var(--second-text-color);
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-
-    padding-bottom: 20px;
-}
-
-a.bott-logo>span {
     color: var(--third-text-color);
-}
-
-.bott-adr-info {
-    font-style: normal;
-    text-decoration: none;
-    color: var(--third-text-color);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.bott-adr-info:hover {
-    color: var(--second-text-color);
-}
-
-.bott-adr-info:focus {
-    color: var(--second-text-color);
-}
-
-.bott-adr-c {
-    font-style: normal;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.bott-adr-c:hover {
-    color: var(--second-text-color);
-}
-
-.bott-adr-c:focus {
-    color: var(--second-text-color);
-}
-
-.bott-adr-list {
-    padding-left: 0;
-}
-
-.bott-adr-item:nth-last-child(n+2) {
-    padding-bottom: 9px;
 }
 
 .name-lable-bott {
+
     position: relative;
 }
 
@@ -156,6 +163,7 @@ a.bott-logo>span {
 }
 
 .div-icon-bott {
+
     position: absolute;
     top: 0px;
     left: 0px;
@@ -170,6 +178,7 @@ a.bott-logo>span {
 }
 
 .input-icon-bott {
+
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 16px;
@@ -177,47 +186,42 @@ a.bott-logo>span {
     letter-spacing: 0.03em;
 }
 
-.bott-butt {
+.bott__butt {
+
     position: relative;
 }
 
 .hero-but-butt {
+
     position: absolute;
     top: 55px;
 
     width: 200px;
     height: 50px;
-    display: block;
-    color: var(--third-text-color);
-    background-color: var(--second-text-color);
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    cursor: pointer;
+
     margin-left: 2px;
 
     padding: 10px 62px 10px 29px;
-    border-radius: 4px;
-    border-color: rgba(0, 0, 0, 0);
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .h-butt {
+
     display: flex;
     width: 143px;
 
 }
 
 .butt-sing {
+
     width: 109px;
     height: 30px;
 }
 
 .butt-svg {
+
     width: 24px;
     height: 24px;
     margin-left: 10px;
