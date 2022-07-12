@@ -186,18 +186,17 @@ a.bott__logo > span {
     letter-spacing: 0.03em;
 }
 
+ @import "../utils/btn_placeholder";
+ 
 .bott__butt {
 
     position: relative;
 }
-
- @import "../utils/btn_placeholder";
  
 .hero-but-butt {
-
-    @extend %btn;
-
     position: absolute;
+    @extend %btn;
+   
     top: 55px;
     width: 200px;
     height: 50px;
@@ -212,7 +211,6 @@ a.bott__logo > span {
 
     display: flex;
     width: 143px;
-
 }
 
 .butt-sing {
