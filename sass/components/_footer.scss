@@ -1,3 +1,5 @@
+@import "../utils/btn_placeholder";
+
 .bott {
 
     width: inherit;
@@ -186,7 +188,6 @@ a.bott__logo > span {
     letter-spacing: 0.03em;
 }
 
- @import "../utils/btn_placeholder";
  
 .bott__butt {
 
@@ -194,8 +195,8 @@ a.bott__logo > span {
 }
  
 .hero-but-butt {
-    position: absolute;
     @extend %btn;
+    position: absolute;
    
     top: 55px;
     width: 200px;
