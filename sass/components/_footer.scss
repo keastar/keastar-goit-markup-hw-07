@@ -195,16 +195,14 @@ a.bott__logo > span {
 }
  
 .hero-but-butt {
-    @extend %btn;
+    @extend .btn;
     position: absolute;
-   
     top: 55px;
+    
     width: 200px;
     height: 50px;
     line-height: 30px;
-    
     margin-left: 2px;
-
     padding: 10px 62px 10px 29px;
 }
 
